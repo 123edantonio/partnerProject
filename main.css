@@ -1,6 +1,6 @@
 body {
   background-color: #fad693;
-  font-family: Arial, sans-serif;
+  
 }
 h1 {
   text-align: center;
@@ -43,7 +43,9 @@ tr:nth-child(even) {
   font-family: "Poppins", sans-serif;
   font-weight: bold;
 }
-
+.bebes {
+  font-family: 'Bebas Neue', cursive;
+}
 
 
 
@@ -67,11 +69,54 @@ tr:nth-child(even) {
   width: 50%;
   border: 3px 
   padding: 10px;eft: 500px;
+  font-size: 30px
 }
 
 .clockimg {
   padding-bottom: 25px;
 }
+
+.imgborder {
+  border: red;
+  border: 5px solid
+}
+
+  
+.image {
+  opacity: 1;
+  display: block;
+  width: auto;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: auto;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.container:hover .image {
+  opacity: 0.3;
+}
+
+.container:hover .middle {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 50px;
+  padding: 16px 32px;
+  font-family: 'Bebas Neue', cursive;
+}
+
 
 /* css button bellow this point */
 
