@@ -85,8 +85,6 @@ tr:nth-child(even) {
 .image {
   opacity: 1;
   display: block;
-  width: auto;
-  height: auto;
   transition: .5s ease;
   backface-visibility: hidden;
 }
@@ -117,6 +115,15 @@ tr:nth-child(even) {
   font-family: 'Bebas Neue', cursive;
 }
 
+.alarmclock1 {
+  width: 40%;
+  height: 40%;
+}
+
+.normalclock1 {
+  width: 50%;
+  height: 50%;
+}
 
 /* css button bellow this point */
 
