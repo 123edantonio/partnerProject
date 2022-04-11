@@ -74,6 +74,7 @@ tr:nth-child(even) {
 
 .clockimg {
   padding-bottom: 25px;
+  padding-right: 24%;
 }
 
 .imgborder {
